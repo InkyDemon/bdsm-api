@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "bdsm-api",
+	"version": "${version}",
+	"name": "bdsm-api",
+	"description": "Library mod for simplified modding on fabric loader.",
+	"authors": ["TheBendy"],
+
+	"license": "MIT",
+	"icon": "assets/bdsm-api/icon.png",
+	"environment": "*",
+
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
