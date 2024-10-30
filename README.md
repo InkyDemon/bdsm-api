@@ -2,6 +2,8 @@
 <p align="center">BDSM API - это мод-библиотека, добавляющий конструкторы для упрощённого моддинга на ядре Fabric.</p>
 <h3>Как добавить в проект?:</h3>
 
+<p>buld.gradle</p>
+
 ```gradle
 repositories {
   maven {
