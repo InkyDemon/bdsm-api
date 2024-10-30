@@ -5,7 +5,7 @@
 ```gradle
 repositories {
   maven {
-    name = "InkyDemon"
+    name = "JitPack"
     url = "https://jitpack.io" 
   }
 }
