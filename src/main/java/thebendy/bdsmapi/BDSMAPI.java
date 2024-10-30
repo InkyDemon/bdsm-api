@@ -1,5 +1,6 @@
 package thebendy.bdsmapi;
 
+import dev.felnull.specialmodelloader.api.event.SpecialModelLoaderEvents;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.minecraft.item.ItemGroup;
@@ -68,5 +69,9 @@ public class BDSMAPI {
                 return identifier.withPath("geo/animations/" + identifier.getPath() + ".animation.json");
             }
         }));
+    }
+
+    public static void registerObjLoader(String modId) {
+        SpecialModelLoaderEvents.LOAD_SCOPE.register(location -> modId.equals(location.getNamespace()));
     }
 }
